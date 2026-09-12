@@ -146,23 +146,50 @@ We recommend you embed or link 4–8 key screens as images, with a caption on ea
 
 #### Screen 1 - Home Dashboard:
 
+![Home Dashboard](images/ui/home.jpg)
 
-#### Screen 2 - Home Dashboard:
+The Home Dashboard gives students an immediate overview of their weekly capacity, major workload areas, current pressure and important commitments. The **Rebalance My Week** action provides a direct path from understanding workload to taking action.
 
+#### Screen 2 - Task & Commitments:
 
-#### Screen 3 - Home Dashboard:
+![Tasks and Commitments](images/ui/tasks.jpg)
 
+Students record academic and non-academic commitments together with their priority, estimated duration, deadline and fixed or flexible status. This information allows the system to distinguish between commitments that must remain and those that may be rescheduled.
 
+#### Screen 3 - Stress & Workload Insights:
+
+![Stress and Workload Insights](images/ui/insights.jpg)
+
+The Insights screen helps students understand changes in their workload and stress over time. Instead of presenting the information separately, the system highlights possible patterns between workload levels and the student's check-ins.
+
+#### Screen 4 - Load Balancer:
+
+![Load Balancer](images/ui/load-balancer.jpg)
+
+When the user's workload becomes high, the Load Balancer identifies possible changes and groups commitments into **Keep, Move, Reduce and Optional** actions. A before-and-after capacity estimate helps the student understand the possible effect before applying any suggestion.
+
+#### Screen 5 — AI Assistant (Milo):
+
+![AI Assistant](docs/images/ui/milo.jpg)
+
+Milo provides personalised workload support through a friendly AI persona. It can help users understand their workload, prioritise commitments, plan their schedule and explain possible rebalancing actions.
+
+### Screen 6 — Balance Points & Rewards
+
+![Balance Points and Rewards](images/ui/rewards.jpg)
+![Balance Points and Rewards](images/ui/rewards2.jpg)
+
+Balance Points reward healthy workload decisions, including recovery and successful rebalancing, rather than only rewarding task completion. Points can be used for optional cosmetic rewards and Milo customisation.
 
 
 ## 4. What Makes It Different
 
-### Our Key Differantiators:
+### Our Key Differentiators:
 
 | Feature | What makes it different? |
 | --- | --- |
 | **Overall Workload Visualiser** | Shows workload across Mental, Time, Physical, Social and Errands, instead of only counting tasks. |
-| **AI Load Balancer** | Don’t just warn users about overload. It suggests what to move, reduce or postpone. |
+| **AI Load Balancer** | Does not only warn users about overload. It suggests which commitments may be moved, reduced or postponed. |
 | **What-If Simulator** | Let students test a new commitment and see how it affects their overall workload. |
 | **Balance-Based Rewards** | Rewards rest, recovery and healthy workload management, rather than only rewarding productivity. |
 | **AI Workload Assistant** | Provides personalized advice based on the student's workload, stress and commitments. |
