@@ -1,5 +1,3 @@
-# codenection-2026
-
 # Balance by Oopsie
 
 **Team:** Foo Jing Yu, Lim Xin Ying, Ang Le Ying
@@ -13,7 +11,7 @@
 
 ## 1. Project Overview
 
-### The Problem
+### The Problem:
 University students often manage many responsibilities at the same time. These responsibilities do not only come from academic work, but also from part-time jobs, social commitments, personal errands and the need for physical and mental recovery.
 
 The problem is that these responsibilities are usually managed separately. A student may use a calendar for classes, a to-do list for assignments and reminders for personal tasks, but still have no clear picture of how much they are carrying overall. This makes it difficult to recognise overload early and decide which commitments should be prioritised, postponed, reduced or rescheduled.
@@ -63,12 +61,12 @@ Finch focuses more strongly on self-care and wellbeing activities. However, it d
 The gap identified is therefore not simply a lack of another planner or wellbeing application. Students need a way to connect workload, stress, scheduling and recovery in one system.
 
 
-### Our Solution
+### Our Solution:
 
 Our solution is a student-focused workload management app "Balance" that helps users understand their overall workload across different areas of life. Instead of only tracking tasks, the app analyses workload, stress and available capacity to identify potential overload. An AI assistant helps students prioritize, reschedule and rebalance commitments when their workload becomes too high. The app also encourages recovery through rewards, achievements and short mini-games, making workload management more engaging without promoting excessive productivity.
 
 
-### Core Features
+### Core Features:
 
 | Feature | Description |
 | --- | --- |
@@ -84,7 +82,7 @@ Our solution is a student-focused workload management app "Balance" that helps u
 | **What-If Simulator** | Shows how adding or changing a commitment could affect the student's overall workload. |
 
 
-### Expected Impact
+### Expected Impact:
 
 The application aims to help students recognise excessive workload earlier and make more realistic decisions before their schedule becomes difficult to manage.
 
@@ -142,17 +140,24 @@ The **Idea Exploration** section compares several possible solution directions. 
    
 Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
 
-**Key Screens:**
+### Key Screens:
 
 We recommend you embed or link 4–8 key screens as images, with a caption on each explaining the interaction
 
-### Screen 1 - Home Dashboard
+#### Screen 1 - Home Dashboard:
+
+
+#### Screen 2 - Home Dashboard:
+
+
+#### Screen 3 - Home Dashboard:
+
 
 
 
 ## 4. What Makes It Different
 
-### Our Key Differantiators
+### Our Key Differantiators:
 
 | Feature | What makes it different? |
 | --- | --- |
@@ -179,7 +184,7 @@ Unlike traditional productivity apps, our solution focuses on balancing the stud
 
 ## 5. Technical Architecture & Feasibility
 
-### Tech stack
+### Tech stack:
 | Layer | Technology | Why We Chose It |
 | --- | --- | --- |
 | **Frontend** | React Native + Expo | Allows us to build a mobile app for both Android and iOS efficiently. |
@@ -190,12 +195,16 @@ Unlike traditional productivity apps, our solution focuses on balancing the stud
 | **Hosting / Deployment** | Expo + Supabase Cloud | Simple cloud-based deployment suitable for a hackathon prototype. |
 
 
-### System architecture diagram
+### System architecture diagram:
 
-(Optional, if you feel it would help the reviewers understand your architecture better)
+![System Architecture](images/system-architecture-diagram.jpg)
+
+**Figure 2. Proposed System Architecture**
+
+The React Native application uses Supabase for authentication and application data. Relevant workload information is used to generate personalised advice through the AI service. AI output is advisory, and users remain responsible for deciding whether suggested schedule changes should be applied.
 
 
-### Build plan & scope
+### Build plan & scope:
 
 
 
