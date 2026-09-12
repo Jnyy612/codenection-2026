@@ -1,4 +1,4 @@
-# Balance by Oopsie
+# Project "Balance" by Oopsie
 
 **Team:** Foo Jing Yu, Lim Xin Ying, Ang Le Ying
 
@@ -137,16 +137,14 @@ The **Idea Exploration** section compares several possible solution directions. 
 ## 3. Design & Prototype
 
 **UI Prototype:** [[ Public Link ]](https://draw-prime-09291226.figma.site/)
-   
-Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
 
 ### Key Screens:
-
-We recommend you embed or link 4–8 key screens as images, with a caption on each explaining the interaction
 
 #### Screen 1 - Home Dashboard:
 
 ![Home Dashboard](images/ui/home.jpg)
+![Home Dashboard](images/ui/home2.jpg)
+![Home Dashboard](images/ui/home3.jpg)
 
 The Home Dashboard gives students an immediate overview of their weekly capacity, major workload areas, current pressure and important commitments. The **Rebalance My Week** action provides a direct path from understanding workload to taking action.
 
@@ -165,16 +163,17 @@ The Insights screen helps students understand changes in their workload and stre
 #### Screen 4 - Load Balancer:
 
 ![Load Balancer](images/ui/load-balancer.jpg)
+![Load Balancer](images/ui/load-balancer2.jpg)
 
 When the user's workload becomes high, the Load Balancer identifies possible changes and groups commitments into **Keep, Move, Reduce and Optional** actions. A before-and-after capacity estimate helps the student understand the possible effect before applying any suggestion.
 
 #### Screen 5 — AI Assistant (Milo):
 
-![AI Assistant](docs/images/ui/milo.jpg)
+![AI Assistant](images/ui/milo.jpg)
 
 Milo provides personalised workload support through a friendly AI persona. It can help users understand their workload, prioritise commitments, plan their schedule and explain possible rebalancing actions.
 
-### Screen 6 — Balance Points & Rewards
+#### Screen 6 — Balance Points & Rewards
 
 ![Balance Points and Rewards](images/ui/rewards.jpg)
 ![Balance Points and Rewards](images/ui/rewards2.jpg)
