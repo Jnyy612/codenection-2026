@@ -23,13 +23,13 @@ The problem is that these responsibilities are usually managed separately. A stu
 
 The main causes identified are:
 
--Multiple academic responsibilities
--Part-time work
--Social commitments
--Daily errands
--Physical demands and lack of recovery
--Poor visibility of overall workload
--Difficulty prioritizing competing commitments
+- Multiple academic responsibilities
+- Part-time work
+- Social commitments
+- Daily errands
+- Physical demands and lack of recovery
+- Poor visibility of overall workload
+- Difficulty prioritizing competing commitments
 
 When these responsibilities accumulate, students may know that they feel busy or stressed but may not clearly understand what is creating the pressure or what they can realistically change.
 
@@ -38,14 +38,14 @@ When these responsibilities accumulate, students may know that they feel busy or
 
 **Primary stakeholder**
 
--University students
+- University students
 
 **Secondary stakeholders**
 
--Friends and family
--Part-time employers
--Universities and lecturers
--Project teammates
+- Friends and family
+- Part-time employers
+- Universities and lecturers
+- Project teammates
 
 The application mainly focuses on university students because they are the users who need to make everyday decisions about deadlines, study time, work, personal responsibilities and recovery.
 
@@ -65,7 +65,7 @@ The gap identified is therefore not simply a lack of another planner or wellbein
 
 ### Our Solution
 
-Our solution is a student-focused workload management app that helps users understand their overall workload across different areas of life. Instead of only tracking tasks, the app analyses workload, stress and available capacity to identify potential overload. An AI assistant helps students prioritize, reschedule and rebalance commitments when their workload becomes too high. The app also encourages recovery through rewards, achievements and short mini-games, making workload management more engaging without promoting excessive productivity.
+Our solution is a student-focused workload management app "Balance" that helps users understand their overall workload across different areas of life. Instead of only tracking tasks, the app analyses workload, stress and available capacity to identify potential overload. An AI assistant helps students prioritize, reschedule and rebalance commitments when their workload becomes too high. The app also encourages recovery through rewards, achievements and short mini-games, making workload management more engaging without promoting excessive productivity.
 
 
 ### Core Features
@@ -82,6 +82,19 @@ Our solution is a student-focused workload management app that helps users under
 | **Rewards & Achievements** | Use points to unlock assistant cosmetics and achievements for maintaining balance. |
 | **Mini Games** | Provides short, casual activities for relaxation during breaks. |
 | **What-If Simulator** | Shows how adding or changing a commitment could affect the student's overall workload. |
+
+
+### Expected Impact
+
+The application aims to help students recognise excessive workload earlier and make more realistic decisions before their schedule becomes difficult to manage.
+
+Instead of only helping students answer **"What do I need to complete?"**, the system also helps them understand:
+
+      What is creating most of my workload? → What can I change? → When should I recover?
+
+By combining workload visibility, stress awareness, schedule rebalancing and recovery support, Balance is intended to help students make better decisions about their commitments rather than simply encouraging them to complete more tasks.
+
+The expected impact is improved workload awareness, more realistic prioritisation, healthier scheduling decisions and better recognition of the need for recovery.
 
 
 ## 2. Ideation & Process
@@ -101,11 +114,19 @@ Several directions were considered before combining the strongest elements into 
 
 ### 2.2 Ideation Boards
    
-You can embed the images directly (recommended) or have links to your ideation board. Don’t feel forced to add as many diagrams as you can for “more marks”. The reviewers want to know how your team put your minds together to create your solution. It can be messy, with a lot of small dropped ideas. Add 1–2 lines under each explaining what it shows.
-
-You can embed images in markdown like so:
+Our ideation process began by understanding where student workload comes from, identifying the main causes of overload, and exploring different approaches that could address the problem.
    
-![Mindmap](mindmap.png)
+![Ideation Board](images/ideation-board.jpg)
+
+**Figure 1. Ideation Process**
+
+The board shows how the team moved from problem exploration to root-cause analysis and solution exploration. Different ideas were compared and either dropped, refined, or integrated depending on how well they addressed the workload problem.
+
+The **Problem Exploration** section maps the different areas that contribute to a student's overall workload, including academic, time, physical, social, and daily responsibilities.
+
+The **Root Causes** section identifies why workload can become overwhelming, including multiple commitments, responsibilities being managed separately, poor prioritisation, and insufficient recovery.
+
+The **Idea Exploration** section compares several possible solution directions. Rather than selecting the first idea, useful parts of different concepts were retained and combined into Balance.
 
 
 ### 2.3 Mentor Consultation
@@ -113,8 +134,6 @@ You can embed images in markdown like so:
 | Date | Mentor | Feedback Received | What Was Changed |
 |---|---|---|---|
 | 13/09/2026 | Jannelle Tan | - | - |
-   
-Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor’s advice, it will still count as engaging with it.
 
 
 ## 3. Design & Prototype
