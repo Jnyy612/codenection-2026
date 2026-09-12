@@ -1,6 +1,6 @@
 # codenection-2026
 
-# [Project Name] by Oopsie
+# Balance by Oopsie
 
 **Team:** Foo Jing Yu, Lim Xin Ying, Ang Le Ying
 
@@ -13,24 +13,90 @@
 
 ## 1. Project Overview
 
-**The Problem**
-State the causes as you understand them, who the stakeholders are and briefly mention what similar apps exist in the market (at least one) and why they fall short.
+### The Problem
+University students often manage many responsibilities at the same time. These responsibilities do not only come from academic work, but also from part-time jobs, social commitments, personal errands and the need for physical and mental recovery.
 
-**Our Solution**
-What it is in 3-4 sentences, then list out your feature-set
+The problem is that these responsibilities are usually managed separately. A student may use a calendar for classes, a to-do list for assignments and reminders for personal tasks, but still have no clear picture of how much they are carrying overall. This makes it difficult to recognise overload early and decide which commitments should be prioritised, postponed, reduced or rescheduled.
+
+
+#### A. Causes
+
+The main causes identified are:
+
+-Multiple academic responsibilities
+-Part-time work
+-Social commitments
+-Daily errands
+-Physical demands and lack of recovery
+-Poor visibility of overall workload
+-Difficulty prioritizing competing commitments
+
+When these responsibilities accumulate, students may know that they feel busy or stressed but may not clearly understand what is creating the pressure or what they can realistically change.
+
+
+#### B. Stakeholders
+
+**Primary stakeholder**
+
+-University students
+
+**Secondary stakeholders**
+
+-Friends and family
+-Part-time employers
+-Universities and lecturers
+-Project teammates
+
+The application mainly focuses on university students because they are the users who need to make everyday decisions about deadlines, study time, work, personal responsibilities and recovery.
+
+
+#### C. Existing Solutions
+
+**Todoist**
+
+Todoist is mainly designed around task organisation and productivity. It can help users record and complete tasks, but it does not focus on understanding the student's overall workload across mental, physical, social and daily responsibilities.
+
+**Finch**
+
+Finch focuses more strongly on self-care and wellbeing activities. However, it does not mainly address the responsibilities and commitments that may be creating the student's workload in the first place.
+
+The gap identified is therefore not simply a lack of another planner or wellbeing application. Students need a way to connect workload, stress, scheduling and recovery in one system.
+
+
+### Our Solution
+
+Our solution is a student-focused workload management app that helps users understand their overall workload across different areas of life. Instead of only tracking tasks, the app analyses workload, stress and available capacity to identify potential overload. An AI assistant helps students prioritize, reschedule and rebalance commitments when their workload becomes too high. The app also encourages recovery through rewards, achievements and short mini-games, making workload management more engaging without promoting excessive productivity.
+
+
+### Core Features
+
+| Feature | Description |
+| --- | --- |
+| **Workload Dashboard** | Visualizes overall workload across Mental, Time, Physical, Social and Errands. |
+| **Tasks & Commitments** | Records academic, work, social and personal commitments with deadlines, duration and priority. |
+| **Stress Tracker** | Tracks stress levels and possible causes to identify changes in stress over time. |
+| **AI Workload Assistant** | Analyses workload, helps prioritize tasks and provides personalized management suggestions through a friendly pet persona. |
+| **Load Balancer** | Suggests moving, postponing or reducing lower-priority commitments when workload becomes too high. |
+| **Recovery System** | Encourages planned rest, sleep, breaks and other recovery activities. |
+| **Balance Points** | Rewards healthy workload management and recovery rather than simply completing more tasks. |
+| **Rewards & Achievements** | Use points to unlock assistant cosmetics and achievements for maintaining balance. |
+| **Mini Games** | Provides short, casual activities for relaxation during breaks. |
+| **What-If Simulator** | Shows how adding or changing a commitment could affect the student's overall workload. |
 
 
 ## 2. Ideation & Process
 ### 2.1 Ideas We Considered
 
-Table of every distinct idea generated, with why each was kept or dropped, order it so that chosen ideas are listed first
+Several directions were considered before combining the strongest elements into Balance:
 
-**Idea	                          Why it was dropped / kept**
 | Idea | Why it was dropped / kept |
 |---|---|
-| **A (Chosen)** - xxx | Kept: xxx |
-| **B (Chosen)** - xxx | Kept: xxx |
-| **C** - xxx | Dropped: xxx |
+| **A. Stress & Workload Manager (Chosen)** | Selected because it directly addresses the main problem by combining workload visibility, stress awareness, workload rebalancing and recovery support. |
+| **B. AI Workload Assistant (Chosen / Integrated)** | Kept because personalized AI guidance can help students understand their workload and decide what actions to take. It was integrated into the final app rather than developed as a standalone product. |
+| **C. Smart Student Planner** | Dropped as a standalone concept because it mainly focuses on tasks, schedules and productivity, making it too similar to existing planner and to-do apps. |
+| **D. Stress Tracking App** | Dropped as a standalone concept because it can identify stress levels and causes but does not directly help students reduce or rebalance their workload. |
+| **E. Recovery & Wellness App** | Dropped as a standalone concept because it focuses on rest and wellness but does not address the responsibilities that are causing students to become overloaded. |
+| **F. Virtual Pet & Garden** | Dropped as a standalone concept because it focuses on rest and wellness but does not address the responsibilities that are causing students to become overloaded. |
 
 
 ### 2.2 Ideation Boards
@@ -53,7 +119,7 @@ Even if you disagreed with a piece of feedback, you can say so and explain why. 
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [ Public Link ]
+**UI Prototype:** [[ Public Link ]](https://draw-prime-09291226.figma.site/)
    
 Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
 
@@ -61,28 +127,76 @@ Check that it opens in an incognito window. This can be a link to Figma, Canva, 
 
 We recommend you embed or link 4–8 key screens as images, with a caption on each explaining the interaction
 
+### Screen 1 - Home Dashboard
+
+
 
 ## 4. What Makes It Different
 
-List out novel features and explain briefly which each is original or what the twist is.
+### Our Key Differantiators
 
-You can have a comparison table to compare with existing solutions named in section 1 but this is completely optional.
+| Feature | What makes it different? |
+| --- | --- |
+| **Overall Workload Visualiser** | Shows workload across Mental, Time, Physical, Social and Errands, instead of only counting tasks. |
+| **AI Load Balancer** | Don’t just warn users about overload. It suggests what to move, reduce or postpone. |
+| **What-If Simulator** | Let students test a new commitment and see how it affects their overall workload. |
+| **Balance-Based Rewards** | Rewards rest, recovery and healthy workload management, rather than only rewarding productivity. |
+| **AI Workload Assistant** | Provides personalized advice based on the student's workload, stress and commitments. |
+
+Unlike traditional productivity apps, our solution focuses on balancing the student's overall life load, not simply completing more tasks.
+
+| Capability | Todoist | Finch | Balance |
+| --- | ---: | ---: | ---: |
+| Task management | ✓ | Limited | ✓ |
+| Stress tracking | — | ✓ | ✓ |
+| Overall life workload | — | — | ✓ |
+| Fixed / flexible commitment analysis | — | — | ✓ |
+| Load balancing | — | — | ✓ |
+| Recovery support | — | ✓ | ✓ |
+| What-If workload simulation | — | — | ✓ |
+| AI workload planning | — | — | ✓ |
+| Rewards focused on healthy balance | — | — | ✓ |
 
 
 ## 5. Technical Architecture & Feasibility
 
-**Tech stack**
+### Tech stack
+| Layer | Technology | Why We Chose It |
+| --- | --- | --- |
+| **Frontend** | React Native + Expo | Allows us to build a mobile app for both Android and iOS efficiently. |
+| **Backend** | Supabase | Provides authentication, database and backend services in one platform. |
+| **Database** | PostgreSQL (Supabase) | Stores users, tasks, stress records, workload data and rewards. |
+| **AI** | OpenAI API | Provides personalized workload analysis and suggestions through the AI assistant. |
+| **Charts** | React Native Chart Kit | Used to visualize workload and stress trends. |
+| **Hosting / Deployment** | Expo + Supabase Cloud | Simple cloud-based deployment suitable for a hackathon prototype. |
 
-Tell us your frontend, backend, database, APIs and services, as well as how and where you will be hosting. For each, try to tell us why you chose that technology, and what constraints you expect to face (For example, you chose Supabase because it’s free but you’ll still need a proxy)
 
-**System architecture diagram**
+### System architecture diagram
 
 (Optional, if you feel it would help the reviewers understand your architecture better)
 
 
-**Build plan & scope**
-
-Explicitly tell the reviewer what you plan to build during the building phase. Narrow scope will read as realistic and feasible, not as a lack of ambition.
+### Build plan & scope
 
 
+
+#### Core Features
+
+| Feature | Building Scope |
+| --- | --- |
+| **Task & Commitment Management** | Add, edit and categories tasks with priority, duration and deadline. |
+| **Workload Dashboard** | Calculate and display overall workload across five categories. |
+| **Stress Tracker** | Record stress level and basic causes. |
+| **Load Balancer** | Detect overload and suggest tasks to move, postpone or reduce. |
+| **AI Workload Assistant** | Provide personalized workload and planning suggestions. |
+| **Recovery System** | Recommend and record simple recovery activities. |
+
+#### Supporting Features (Build If Time Allows)
+
+| Feature | Building Scope |
+| --- | --- |
+| **Balance Points** | Basic point system for healthy workload actions. |
+| **Rewards** | Limited cosmetic rewards for the virtual assistant. |
+| **What-If Simulator** | Simple workload comparison before and after adding a task. |
+| **Mini Games** | One simple mini-game or relaxation activity. |
 
