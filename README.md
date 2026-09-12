@@ -173,7 +173,7 @@ When the user's workload becomes high, the Load Balancer identifies possible cha
 
 Milo provides personalised workload support through a friendly AI persona. It can help users understand their workload, prioritise commitments, plan their schedule and explain possible rebalancing actions.
 
-#### Screen 6 — Balance Points & Rewards
+#### Screen 6 — Balance Points & Rewards:
 
 ![Balance Points and Rewards](images/ui/rewards.jpg)
 ![Balance Points and Rewards](images/ui/rewards2.jpg)
