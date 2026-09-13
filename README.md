@@ -71,7 +71,7 @@ Our solution is a student-focused workload management app "Balance" that helps u
 | Feature | Description |
 | --- | --- |
 | **Workload Dashboard** | Visualizes overall workload across Mental, Time, Physical, Social and Errands. |
-| **Tasks & Commitments** | Records academic, work, social and personal commitments with deadlines, duration and priority. |
+| **Tasks & Commitments** | Records academic, work, social and personal commitments with deadlines, estimated duration, priority and fixed/flexible status. |
 | **Stress Tracker** | Tracks stress levels and possible causes to identify changes in stress over time. |
 | **AI Workload Assistant** | Analyses workload, helps prioritize tasks and provides personalized management suggestions through a friendly pet persona. |
 | **Load Balancer** | Suggests moving, postponing or reducing lower-priority commitments when workload becomes too high. |
@@ -111,20 +111,36 @@ Several directions were considered before combining the strongest elements into 
 
 
 ### 2.2 Ideation Boards
-   
-Our ideation process began by understanding where student workload comes from, identifying the main causes of overload, and exploring different approaches that could address the problem.
-   
+ 
+Before deciding on the final concept, we first broke down the problem to understand what actually contributes to student overload. We then looked at the main causes and compared different solution directions before deciding which ideas should be kept, changed or removed.
+
 ![Ideation Board](images/ideation-board.jpg)
 
-**Figure 1. Ideation Process**
+**Figure 1: Ideation Proccess**
 
-The board shows how the team moved from problem exploration to root-cause analysis and solution exploration. Different ideas were compared and either dropped, refined, or integrated depending on how well they addressed the workload problem.
+#### Problem Exploration:
 
-The **Problem Exploration** section maps the different areas that contribute to a student's overall workload, including academic, time, physical, social, and daily responsibilities.
+![Problem Exploration](images/problem-exploration.jpg)
 
-The **Root Causes** section identifies why workload can become overwhelming, including multiple commitments, responsibilities being managed separately, poor prioritisation, and insufficient recovery.
+**Figure 2: Problem Exploration**
 
-The **Idea Exploration** section compares several possible solution directions. Rather than selecting the first idea, useful parts of different concepts were retained and combined into Balance.
+We first mapped the different areas that contribute to a student's workload. This showed that overload is not caused by academic work alone, as part-time work, social commitments, physical needs and daily responsibilities also compete for the student's time and energy.
+
+#### Root Cause Analysis:
+
+![Root Cause Analysis](images/root-causes.jpg)
+
+**Figure 3: Root Cause Analysis**
+
+We then looked at why these responsibilities become difficult to manage. The problem was not only having too many commitments, but also managing them separately, having unclear priorities and leaving too little time for recovery.
+
+#### Idea Exploration:
+
+![Idea Exploration](images/idea-exploration.jpg)
+
+**Figure 4: Idea Exploration**
+
+Several possible solutions were compared instead of choosing the first idea. A planner, stress tracker and recovery app each solved only one part of the problem, so the Stress & Workload Manager became the main direction. The AI assistant was integrated to support prioritisation and rebalancing, while the virtual pet idea was simplified into Milo's persona rather than becoming a separate game.
 
 
 ### 2.3 Mentor Consultation
@@ -189,7 +205,7 @@ Balance Points reward healthy workload decisions, including recovery and success
 | --- | --- |
 | **Overall Workload Visualiser** | Shows workload across Mental, Time, Physical, Social and Errands, instead of only counting tasks. |
 | **AI Load Balancer** | Does not only warn users about overload. It suggests which commitments may be moved, reduced or postponed. |
-| **What-If Simulator** | Let students test a new commitment and see how it affects their overall workload. |
+| **What-If Simulator** | Lets students test a new commitment and see how it may affect their overall workload. |
 | **Balance-Based Rewards** | Rewards rest, recovery and healthy workload management, rather than only rewarding productivity. |
 | **AI Workload Assistant** | Provides personalized advice based on the student's workload, stress and commitments. |
 
@@ -211,21 +227,21 @@ Unlike traditional productivity apps, our solution focuses on balancing the stud
 ## 5. Technical Architecture & Feasibility
 
 ### Tech stack:
-| Layer | Technology | Why We Chose It |
-| --- | --- | --- |
-| **Frontend** | React Native + Expo | Allows us to build a mobile app for both Android and iOS efficiently. |
-| **Backend** | Supabase | Provides authentication, database and backend services in one platform. |
-| **Database** | PostgreSQL (Supabase) | Stores users, tasks, stress records, workload data and rewards. |
-| **AI** | OpenAI API | Provides personalized workload analysis and suggestions through the AI assistant. |
-| **Charts** | React Native Chart Kit | Used to visualize workload and stress trends. |
-| **Hosting / Deployment** | Expo + Supabase Cloud | Simple cloud-based deployment suitable for a hackathon prototype. |
+| Layer | Technology | Why We Chose It | Expected Constraints |
+| --- | --- | --- | --- |
+| **Frontend** | React Native + Expo | Allows us to build a mobile app for both Android and iOS efficiently. | Some native functions and platform-specific behaviour may require additional testing on both Android and iOS. |
+| **Backend** | Supabase | Provides authentication, database and backend services in one platform. | The free tier has usage limits, so the prototype needs to keep backend requests and storage within the available quota. |
+| **Database** | PostgreSQL (Supabase) | Stores users, tasks, stress records, workload data and rewards. | The data structure needs to be kept simple enough for the limited development time, especially when linking tasks, workload and stress records. |
+| **AI** | OpenAI API | Provides personalized workload analysis and suggestions through the AI assistant. | API usage may involve cost and response limits. AI suggestions may also not always match the user's real situation, so users must review suggestions before applying changes. |
+| **Charts** | React Native Chart Kit | Used to visualize workload and stress trends. | Customisation may be limited compared with creating fully custom charts, so only simple visualisations will be used. |
+| **Hosting / Deployment** | Expo + Supabase Cloud | Simple cloud-based deployment suitable for a hackathon prototype. | Deployment depends on stable internet access and the availability of the cloud services used by the application. |
 
 
 ### System architecture diagram:
 
 ![System Architecture](images/system-architecture-diagram.jpg)
 
-**Figure 2. Proposed System Architecture**
+**Figure 5： Proposed System Architecture**
 
 The React Native application uses Supabase for authentication and application data. Relevant workload information is used to generate personalised advice through the AI service. AI output is advisory, and users remain responsible for deciding whether suggested schedule changes should be applied.
 
@@ -238,7 +254,7 @@ The React Native application uses Supabase for authentication and application da
 
 | Feature | Building Scope |
 | --- | --- |
-| **Task & Commitment Management** | Add, edit and categories tasks with priority, duration and deadline. |
+| **Task & Commitment Management** | Add, edit and categorise tasks with priority, estimated duration, deadline and fixed/flexible status. |
 | **Workload Dashboard** | Calculate and display overall workload across five categories. |
 | **Stress Tracker** | Record stress level and basic causes. |
 | **Load Balancer** | Detect overload and suggest tasks to move, postpone or reduce. |
