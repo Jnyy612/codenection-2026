@@ -264,6 +264,7 @@ The React Native application uses Supabase for authentication and application da
 | **Stress Tracker** | Record stress level and basic causes. |
 | **Load Balancer** | Detect overload and suggest tasks to move, postpone or reduce. |
 | **AI Workload Assistant** | Provide personalized workload and planning suggestions. |
+| **What-If Simulator** | Simple workload comparison before and after adding a task. |
 | **Recovery System** | Recommend and record simple recovery activities. |
 
 #### Supporting Features (Build If Time Allows)
@@ -272,7 +273,6 @@ The React Native application uses Supabase for authentication and application da
 | --- | --- |
 | **Balance Points** | Basic point system for healthy workload actions. |
 | **Rewards** | Limited cosmetic rewards for the virtual assistant. |
-| **What-If Simulator** | Simple workload comparison before and after adding a task. |
 | **Mini Games** | One simple mini-game or relaxation activity. |
 | **Customizable AI Companion** | The virtual pet can be customized and interactive. |
 
