@@ -6,7 +6,7 @@
 
 **Video Presentation:** [Unlisted Youtube Link]
 
-**Presentation Slides:** [Public Link]
+**Presentation Slides:** [[Presentation slides]](https://docs.google.com/presentation/d/1dFjj56bjBWYIRlOUaWHr1rwgzEfsEC8T/edit?usp=drive_link&ouid=103306664888905290630&rtpof=true&sd=true)
 
 
 ## 1. Project Overview
