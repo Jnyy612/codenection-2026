@@ -155,7 +155,7 @@ Several possible solutions were compared instead of choosing the first idea. A p
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [[ Public Link ]](https://draw-prime-09291226.figma.site/)
+**UI Prototype:** [[ Balance Prototype ]](https://draw-prime-09291226.figma.site/)
 
 ### Key Screens:
 
