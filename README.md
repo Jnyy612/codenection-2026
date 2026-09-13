@@ -147,7 +147,10 @@ Several possible solutions were compared instead of choosing the first idea. A p
    
 | Date | Mentor | Feedback Received | What Was Changed |
 |---|---|---|---|
-| 13/09/2026 | Jannelle Tan | - | - |
+| 13/09/2026 | Jannelle Tan | Recommeded that more UI/UX design can be applied. | Improved visual design by refining the visual details, layout and overall consistency. |
+| 13/09/2026 | Jannelle Tan | Suggested strengthening the customisation of the virtual pet to make the solution more distinctive. | Expanded the virtual pet concept with customisation options and connected pet rewards to the user's workload and recovery progress. |
+| 13/09/2026 | Jannelle Tan | Suggested removing the AI assistant if the feature scope was too broad. | The AI assistant was retained as it supports personalized workload management. 
+| 13/09/2026 | Jannelle Tan | Found the overall concept and prototype good and clear, with no major confusion when navigating it. | - |
 
 
 ## 3. Design & Prototype
@@ -204,10 +207,9 @@ Balance Points reward healthy workload decisions, including recovery and success
 | Feature | What makes it different? |
 | --- | --- |
 | **Overall Workload Visualiser** | Shows workload across Mental, Time, Physical, Social and Errands, instead of only counting tasks. |
-| **AI Load Balancer** | Does not only warn users about overload. It suggests which commitments may be moved, reduced or postponed. |
 | **What-If Simulator** | Lets students test a new commitment and see how it may affect their overall workload. |
+| **Customizable AI Companion & Workload Assistant** | Provides personalized advice based on the student's workload, stress and commitments. Which is also interactive. |
 | **Balance-Based Rewards** | Rewards rest, recovery and healthy workload management, rather than only rewarding productivity. |
-| **AI Workload Assistant** | Provides personalized advice based on the student's workload, stress and commitments. |
 
 Unlike traditional productivity apps, our solution focuses on balancing the student's overall life load, not simply completing more tasks.
 
@@ -226,7 +228,7 @@ Unlike traditional productivity apps, our solution focuses on balancing the stud
 
 ## 5. Technical Architecture & Feasibility
 
-### Tech stack:
+### Proposed Tech stack:
 | Layer | Technology | Why We Chose It | Expected Constraints |
 | --- | --- | --- | --- |
 | **Frontend** | React Native + Expo | Allows us to build a mobile app for both Android and iOS efficiently. | Some native functions and platform-specific behaviour may require additional testing on both Android and iOS. |
@@ -248,6 +250,7 @@ The React Native application uses Supabase for authentication and application da
 
 ### Build plan & scope:
 
+### Build Plan - 3 Weeks
 
 
 #### Core Features
