@@ -107,7 +107,7 @@ Several directions were considered before combining the strongest elements into 
 | **C. Smart Student Planner** | Dropped as a standalone concept because it mainly focuses on tasks, schedules and productivity, making it too similar to existing planner and to-do apps. |
 | **D. Stress Tracking App** | Dropped as a standalone concept because it can identify stress levels and causes but does not directly help students reduce or rebalance their workload. |
 | **E. Recovery & Wellness App** | Dropped as a standalone concept because it focuses on rest and wellness but does not address the responsibilities that are causing students to become overloaded. |
-| **F. Virtual Pet & Garden** | Dropped as a standalone concept because it focuses on rest and wellness but does not address the responsibilities that are causing students to become overloaded. |
+| **F. Virtual Pet & Garden** | Refined as a supporting feature because the full pet and garden concept would make the app too focused on gaming. The pet was kept as AI assistant, while the garden feature was dropped. |
 
 
 ### 2.2 Ideation Boards
@@ -116,7 +116,7 @@ Before deciding on the final concept, we first broke down the problem to underst
 
 ![Ideation Board](images/ideation-board.jpg)
 
-**Figure 1: Ideation Proccess**
+**Figure 1: Ideation Process**
 
 #### Problem Exploration:
 
@@ -241,7 +241,7 @@ Unlike traditional productivity apps, our solution focuses on balancing the stud
 
 ![System Architecture](images/system-architecture-diagram.jpg)
 
-**Figure 5： Proposed System Architecture**
+**Figure 5: Proposed System Architecture**
 
 The React Native application uses Supabase for authentication and application data. Relevant workload information is used to generate personalised advice through the AI service. AI output is advisory, and users remain responsible for deciding whether suggested schedule changes should be applied.
 
