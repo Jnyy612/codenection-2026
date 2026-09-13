@@ -252,6 +252,8 @@ The React Native application uses Supabase for authentication and application da
 
 #### Build Plan - 3 Weeks
 
+![System Architecture](images/build-plan.jpeg)
+
 
 #### Core Features
 
