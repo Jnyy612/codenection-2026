@@ -103,7 +103,7 @@ Several directions were considered before combining the strongest elements into 
 | Idea | Why it was dropped / kept |
 |---|---|
 | **A. Stress & Workload Manager (Chosen)** | Selected because it directly addresses the main problem by combining workload visibility, stress awareness, workload rebalancing and recovery support. |
-| **B. AI Workload Assistant (Chosen / Integrated)** | Kept because personalized AI guidance can help students understand their workload and decide what actions to take. It was integrated into the final app rather than developed as a standalone product. |
+| **B. Customizable AI Companion & Workload Assistant (Chosen / Integrated)** | Kept because personalized AI guidance can help students understand their workload and decide what actions to take. It was integrated into the final app rather than developed as a standalone product. |
 | **C. Smart Student Planner** | Dropped as a standalone concept because it mainly focuses on tasks, schedules and productivity, making it too similar to existing planner and to-do apps. |
 | **D. Stress Tracking App** | Dropped as a standalone concept because it can identify stress levels and causes but does not directly help students reduce or rebalance their workload. |
 | **E. Recovery & Wellness App** | Dropped as a standalone concept because it focuses on rest and wellness but does not address the responsibilities that are causing students to become overloaded. |
@@ -148,7 +148,7 @@ Several possible solutions were compared instead of choosing the first idea. A p
 | Date | Mentor | Feedback Received | What Was Changed |
 |---|---|---|---|
 | 13/09/2026 | Jannelle Tan | Recommeded that more UI/UX design can be applied. | Improved visual design by refining the visual details, layout and overall consistency. |
-| 13/09/2026 | Jannelle Tan | Suggested strengthening the customisation of the virtual pet to make the solution more distinctive. | Expanded the virtual pet concept with customisation options and connected pet rewards to the user's workload and recovery progress. |
+| 13/09/2026 | Jannelle Tan | Suggested strengthening the customization of the virtual pet to make the solution more distinctive. | Expanded the virtual pet concept with customisation options and connected pet rewards to the user's workload and recovery progress. |
 | 13/09/2026 | Jannelle Tan | Suggested removing the AI assistant if the feature scope was too broad. | The AI assistant was retained as it supports personalized workload management. 
 | 13/09/2026 | Jannelle Tan | Found the overall concept and prototype good and clear, with no major confusion when navigating it. | - |
 
@@ -228,7 +228,7 @@ Unlike traditional productivity apps, our solution focuses on balancing the stud
 
 ## 5. Technical Architecture & Feasibility
 
-### Proposed Tech stack:
+### Proposed Tech Stack:
 | Layer | Technology | Why We Chose It | Expected Constraints |
 | --- | --- | --- | --- |
 | **Frontend** | React Native + Expo | Allows us to build a mobile app for both Android and iOS efficiently. | Some native functions and platform-specific behaviour may require additional testing on both Android and iOS. |
@@ -272,4 +272,5 @@ The React Native application uses Supabase for authentication and application da
 | **Rewards** | Limited cosmetic rewards for the virtual assistant. |
 | **What-If Simulator** | Simple workload comparison before and after adding a task. |
 | **Mini Games** | One simple mini-game or relaxation activity. |
+| **Customizable AI Companion** | The virtual pet can be customized and interactive. |
 
